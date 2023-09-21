@@ -17,3 +17,6 @@ purge: clean
 
 clean:
 	rm -f *.o
+
+watch:
+	watch $(MAKE) --no-print-directory
